@@ -31,9 +31,6 @@ fiverr-clone/
 ├── api/ # Backend (Express + MongoDB)
 ├── client/ # Frontend (React + SCSS)
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -45,18 +42,12 @@ Edit
 git clone https://github.com/your-username/fiverr-clone.git
 cd fiverr-clone
 2. Backend Setup
-bash
-Copy
-Edit
 cd api
 yarn install
 yarn start
 Runs server on http://localhost:5000
 
 3. Frontend Setup
-bash
-Copy
-Edit
 cd client
 yarn install
 yarn run dev
@@ -65,8 +56,6 @@ Runs frontend on http://localhost:5173 by default
 🌐 Environment Variables
 In api/.env:
 env
-Copy
-Edit
 MONGO_URI=your_mongo_connection_string
 JWT_SECRET=your_jwt_secret
 PORT=5000
@@ -75,3 +64,4 @@ env
 Copy
 Edit
 VITE_API_URL=http://localhost:5000/api
+
